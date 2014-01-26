@@ -25,6 +25,7 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
+<<<<<<< HEAD
         public static final int albk=0x7f020000;
         public static final int card_background=0x7f020001;
         public static final int cart=0x7f020002;
@@ -43,36 +44,70 @@ public final class R {
         public static final int star1=0x7f02000f;
         public static final int star2=0x7f020010;
         public static final int up=0x7f020011;
+=======
+        public static final int card_background=0x7f020000;
+        public static final int cart=0x7f020001;
+        public static final int down=0x7f020002;
+        public static final int heart=0x7f020003;
+        public static final int homescreen=0x7f020004;
+        public static final int homescreen_overlay=0x7f020005;
+        public static final int ic_action_search=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int login=0x7f020008;
+        public static final int product1=0x7f020009;
+        public static final int productalternative_moskcup=0x7f02000a;
+        public static final int productalternatives_moskcup=0x7f02000b;
+        public static final int productchemicals=0x7f02000c;
+        public static final int productreview=0x7f02000d;
+        public static final int search_bg_shadow=0x7f02000e;
+        public static final int selectallergies_bottom=0x7f02000f;
+        public static final int selectallergies_bottom_overlay=0x7f020010;
+        public static final int selectallergies_menu=0x7f020011;
+        public static final int selectallergies_menu_overlay=0x7f020012;
+        public static final int selectallergies_mockup=0x7f020013;
+        public static final int selectallergies_selected_bottom=0x7f020014;
+        public static final int star1=0x7f020015;
+        public static final int star2=0x7f020016;
+        public static final int up=0x7f020017;
+>>>>>>> 00fdb14cadc69e52da26bbfced2ac1947fda7b48
     }
     public static final class id {
-        public static final int action_settings=0x7f0a0008;
-        public static final int alergies=0x7f0a0006;
-        public static final int imageView1=0x7f0a0003;
-        public static final int imageView2=0x7f0a0005;
-        public static final int scan_button=0x7f0a0000;
-        public static final int scan_content=0x7f0a0002;
-        public static final int scan_format=0x7f0a0001;
-        public static final int scrollView1=0x7f0a0004;
-        public static final int txtView=0x7f0a0007;
+        public static final int action_settings=0x7f0a000c;
+        public static final int alergies=0x7f0a0007;
+        public static final int allergy_bottom=0x7f0a0009;
+        public static final int allergy_bottom_mask=0x7f0a000a;
+        public static final int allergy_menu=0x7f0a0000;
+        public static final int allergy_menu_mask=0x7f0a0008;
+        public static final int homescreen=0x7f0a0001;
+        public static final int homescreen_mask=0x7f0a0002;
+        public static final int product_chemicals=0x7f0a0006;
+        public static final int scan_content=0x7f0a0004;
+        public static final int scan_format=0x7f0a0003;
+        public static final int scrollView1=0x7f0a0005;
+        public static final int txtView=0x7f0a000b;
     }
     public static final class integer {
         public static final int config_slide_time=0x7f060000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_product_info=0x7f030001;
-        public static final int allergic=0x7f030002;
-        public static final int main=0x7f030003;
+        public static final int activity_login=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_product_info=0x7f030002;
+        public static final int allergic=0x7f030003;
+        public static final int main=0x7f030004;
     }
     public static final class menu {
-        public static final int main=0x7f090000;
-        public static final int product_info=0x7f090001;
+        public static final int login=0x7f090000;
+        public static final int main=0x7f090001;
+        public static final int product_info=0x7f090002;
     }
     public static final class string {
         public static final int action_settings=0x7f070001;
         public static final int app_name=0x7f070000;
         public static final int hello_world=0x7f070002;
         public static final int scan=0x7f070003;
+        public static final int title_activity_allergies=0x7f070006;
+        public static final int title_activity_login=0x7f070007;
         public static final int title_activity_main=0x7f070004;
         public static final int title_activity_product_info=0x7f070005;
     }

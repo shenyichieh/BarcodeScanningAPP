@@ -23,22 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.barcodescanningapp.ProductionInfoActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.example.barcodescanningapp.ProductInfoActivity"
             android:label="@string/title_activity_product_info" >
         </activity>
-        
-                <activity
+        <activity
             android:name="com.example.barcodescanningapp.Allergic"
-            android:label="@string/title_activity_product_info" >
+            android:label="@string/title_activity_allergies" >
+        </activity>
+        <activity
+            android:name="com.example.barcodescanningapp.LoginActivity"
+            android:label="@string/title_activity_login" >
         </activity>
     </application>
 
