@@ -1,8 +1,8 @@
 package com.example.barcodescanningapp;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -11,9 +11,6 @@ import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 /**
  * This is demo code to accompany the Mobiletuts+ tutorial:
  * - Using Barcode Scanning in Android Apps
@@ -67,6 +64,9 @@ public class MainActivity extends Activity implements OnClickListener {
 			//output to UI
 			formatTxt.setText("FORMAT: "+scanFormat);
 			contentTxt.setText("CONTENT: "+scanContent);
+			
+			Intent productInfoIntent = new Intent(this, ProductInfoActivity.class);
+		    startActivity(productInfoIntent);
 		}
 		else{
 			//invalid scan data or scan canceled
