@@ -1,29 +1,43 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/homescreen"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-    <Button android:id="@+id/scan_button"
+
+    <ImageView
+        android:id="@+id/homescreen"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/homescreen" />
+
+    <ImageView
+        android:id="@+id/homescreen_mask"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/scan" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/homescreen_overlay"
+        android:visibility="invisible" />
 
-        <TextView
+    <TextView
         android:id="@+id/scan_format"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textIsSelectable="true"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/scan_button" />
+        android:textIsSelectable="true" />
 
     <TextView
         android:id="@+id/scan_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textIsSelectable="true"
+        android:layout_below="@id/scan_format"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/scan_format" />
-    
-</RelativeLayout>
+        android:textIsSelectable="true" />
 
+</RelativeLayout>
