@@ -35,6 +35,11 @@
             android:name="com.example.barcodescanningapp.ProductInfoActivity"
             android:label="@string/title_activity_product_info" >
         </activity>
+        
+                <activity
+            android:name="com.example.barcodescanningapp.Allergic"
+            android:label="@string/title_activity_product_info" >
+        </activity>
     </application>
 
 </manifest>
