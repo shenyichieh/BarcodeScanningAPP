@@ -1,7 +1,6 @@
 package com.example.barcodescanningapp;
 
-<<<<<<< HEAD
-=======
+
 import com.example.barcodescanningapp.cosmetic.ProductMockData;
 import com.google.zxing.integration.android.IntentIntegrator;
 
@@ -18,7 +17,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class ProductInfoActivity extends Activity {
->>>>>>> 4ad99f12a2d7c6330148d1f83848844fbe5f36a9
+
 
 public class ProductInfoActivity extends Activity implements OnClickListener {
 	private Button allerBtn;
@@ -32,7 +31,7 @@ public class ProductInfoActivity extends Activity implements OnClickListener {
 		// lView.setText(ProductMockData.getProduct1().getName());
 	}
 
-<<<<<<< HEAD
+
 	public void onClick(View v) {
 		// check for scan button
 		System.out.println("SSSSS");
@@ -40,7 +39,6 @@ public class ProductInfoActivity extends Activity implements OnClickListener {
 			
 			Intent productInfoIntent = new Intent(this, Allergic.class);
 		    startActivity(productInfoIntent);
-=======
 		// TextView lView = (TextView)findViewById(R.id.productName);
 		// lView.setText(ProductMockData.getProduct1().getName());
 	}
@@ -52,7 +50,7 @@ public class ProductInfoActivity extends Activity implements OnClickListener {
 			IntentIntegrator scanIntegrator = new IntentIntegrator(this);
 			// start scanning
 			scanIntegrator.initiateScan();
->>>>>>> 4ad99f12a2d7c6330148d1f83848844fbe5f36a9
+
 		}
 	}
 
