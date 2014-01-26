@@ -14,8 +14,8 @@ public class ProductInfoActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_product_info);
 
-		TextView lView = (TextView)findViewById(R.id.productName);
-		lView.setText(ProductMockData.getProduct1().getName());
+		//TextView lView = (TextView)findViewById(R.id.productName);
+		//lView.setText(ProductMockData.getProduct1().getName());
 	}
 
 	@Override
